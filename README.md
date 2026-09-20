@@ -1,19 +1,38 @@
-# :earth_americas: GDP dashboard template
+# GDP Dashboard
 
-A simple Streamlit app showing the GDP of different countries in the world.
+Dashboard interativo desenvolvido com **Python, Streamlit e Pandas** para exploração de dados históricos de PIB de diferentes países.
 
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://gdp-dashboard-template.streamlit.app/)
+## Sobre o projeto
 
-### How to run it on your own machine
+A aplicação utiliza dados do World Bank e permite selecionar países e períodos para visualizar a evolução do PIB ao longo do tempo. O projeto demonstra conceitos de manipulação de dados, filtros interativos, métricas e visualização em aplicações web com Streamlit.
 
-1. Install the requirements
+> Projeto desenvolvido a partir do template público GDP Dashboard do Streamlit, utilizado como estudo prático da tecnologia.
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+## Tecnologias
 
-2. Run the app
+- Python
+- Streamlit
+- Pandas
 
-   ```
-   $ streamlit run streamlit_app.py
-   ```
+## Funcionalidades
+
+- Seleção de intervalo de anos
+- Comparação entre diferentes países
+- Gráfico da evolução histórica do PIB
+- Indicadores de PIB e crescimento
+- Cache de dados com Streamlit
+
+## Como executar
+
+```bash
+pip install -r requirements.txt
+streamlit run streamlit_app.py
+```
+
+## Aprendizados
+
+Este projeto foi utilizado para praticar desenvolvimento de dashboards em Python, manipulação de dados com Pandas e construção de interfaces interativas com Streamlit.
+
+---
+
+Desenvolvido para fins de estudo e portfólio por **Lucas Romualdo**.
